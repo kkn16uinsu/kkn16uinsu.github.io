@@ -1,4 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400,500,600,700&display=swap");
+
+.hero1{
+  animation: floatUpDown 5s ease-in-out infinite;
+}
+.hero2{
+  animation: floatUpDown2 5s ease-in-out infinite;
+}
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+@keyframes floatUpDown2 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+}
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
