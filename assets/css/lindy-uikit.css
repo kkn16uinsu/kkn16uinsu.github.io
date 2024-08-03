@@ -958,6 +958,128 @@ p {
   margin-bottom: 12px;
 }
 
+
+
+.pricing-style-4 {
+  padding: 20px 0;
+}
+
+.pricing-style-4 .pricing-active-wrapper2 {
+  position: relative;
+}
+
+.pricing-style-4 .pricing-active-wrapper2 .tns-controls {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  bottom: 40px;
+  left: -250px;
+}
+
+.pricing-style-4 .pricing-active-wrapper2 .tns-controls:focus {
+  outline: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .pricing-style-4 .pricing-active-wrapper2 .tns-controls {
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    bottom: 0;
+  }
+}
+
+.pricing-style-4 .pricing-active-wrapper2 .tns-controls button {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #323450;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  border: none;
+}
+
+.pricing-style-4 .pricing-active-wrapper2 .tns-controls button:hover {
+  background: #2F80ED;
+  color: #ffffff;
+}
+
+.pricing-style-4 .pricing-active2 .single-pricing {
+  border-radius: 5px;
+  margin: 30px  15px;
+  padding: 45px 40px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease-out 0s;
+  position: relative;
+  text-align: center;
+  box-shadow: 0px 0px 30px rgba(218, 211, 211, 0.42);
+}
+
+.pricing-style-4 .pricing-active2 .single-pricing.active {
+  transform: scale(1.15);
+  z-index: 9;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .pricing-style-4 .pricing-active2 .single-pricing {
+    padding: 40px 25px;
+    margin-bottom: 100px;
+  }
+}
+
+.pricing-style-4 .pricing-active2 .single-pricing h6 {
+  color: #585978;
+  margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .pricing-style-4 .pricing-active2 .single-pricing h6 {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .pricing-style-4 .pricing-active2 .single-pricing h6 {
+    font-size: 16px;
+  }
+}
+
+.pricing-style-4 .pricing-active2 .single-pricing h4 {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .pricing-style-4 .pricing-active2 .single-pricing h4 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .pricing-style-4 .pricing-active2 .single-pricing h4 {
+    font-size: 24px;
+  }
+}
+
+.pricing-style-4 .pricing-active2 .single-pricing h3 {
+  margin-bottom: 18px;
+  color: #2F80ED;
+}
+
+.pricing-style-4 .pricing-active2 .single-pricing ul {
+  margin-bottom: 30px;
+}
+
+.pricing-style-4 .pricing-active2 .single-pricing ul li {
+  font-size: 16px;
+  line-height: 34px;
+  margin-bottom: 12px;
+}
+
 /* ============================= 
     ABOUT-4 CSS
 ================================ */
