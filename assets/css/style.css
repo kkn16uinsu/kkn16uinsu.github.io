@@ -21,6 +21,21 @@
 .carousel-item img {
   z-index: 0;
 }
+ul{
+  padding: 0 !important;
+}
+a{
+  text-decoration: none !important;
+}
+@media only screen and (max-width: 450px) {
+  .carousel-item h5{
+    font-size: 12px;
+  }
+  .carousel-item button{
+    font-size: 10px;
+  }
+
+}
 @keyframes floatUpDown {
   0%, 100% {
     transform: translateY(0);
